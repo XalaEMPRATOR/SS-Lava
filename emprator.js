@@ -23,27 +23,7 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const data = new Map();
-
-client.on("ready", () => {
-  console.log(
-    `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
-  );
-  let statuses = [
-    `Servers: ${client.guilds.size} | Users: ${client.users.size}`,
-    `PARTNER BOT `,
-    `BY : SAEWAN`
-  ];
-  setInterval(function() {
-    let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    client.user.setActivity(STREAMING, {
-      type: "PLAYING",
-      url: "http://www.twitch.tv/faith"
-    });
-  }, 3000);
-});
-
-// ======== { • REPLAY • }======== //
-
+//////
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("reklam")) {
     SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
@@ -71,9 +51,9 @@ client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
     if (saewan.content.startsWith("https://discord.gg/")) {
       saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
-https://discord.gg/9DBUNV7`); /// لینکە سیرڤەرە خۆت
+https://discord.gg/gxDj47Cu3F`); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("760103301575344148").send(////ئایدی ژوری تێکست
+      client.channels.get("785815760579985418").send(////ئایدی ژوری تێکست
  
         `> Nerdra la layan <@${saewan.author.id}> 
 ${saewan.content}`
@@ -84,5 +64,5 @@ ${saewan.content}`
 
 // ======== { • TOKENN • }======== //
 
-client.login("لێرە تۆکین دانە");
+client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9dwiA.0W6xxrqkolbasy6eCLqKbfppgCs");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
