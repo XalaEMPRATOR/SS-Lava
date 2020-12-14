@@ -39,21 +39,14 @@ client.on("message", SAEWAN => {
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
-
-// ======== { • REKLAM • }======== //
-
-client.on("ready", () => {
-  var join = client.channels.get("776849362642272277"); /// ئاید ڤۆیس
-  if (join) join.join();
-});
-
+///////
 client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
     if (saewan.content.startsWith("https://discord.gg/")) {
       saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
-https://discord.gg/gxDj47Cu3F`); /// لینکە سیرڤەرە خۆت
+https://discord.gg/vbMTCjZhZU`); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("785815760579985418").send(////ئایدی ژوری تێکست
+      client.channels.get("785815755493081100").send(////ئایدی ژوری تێکست
  
         `> Nerdra la layan <@${saewan.author.id}> 
 ${saewan.content}`
