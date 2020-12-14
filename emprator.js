@@ -52,7 +52,24 @@ client.on("message", SAEWAN => {
 
 client.on("message", SAEWAN => {
 
-  if (SAEWAN.content.startsWith("")) {
+  if (SAEWAN.content.startsWith("سلاو ریکلام دگۆرن وە")) {
+
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+
+    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+
+  }
+
+});
+
+///////
+////////
+
+
+
+client.on("message", SAEWAN => {
+
+  if (SAEWAN.content.startsWith("slaw reklam agornawa")) {
 
     SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
 
