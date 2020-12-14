@@ -30,6 +30,39 @@ client.on("message", SAEWAN => {
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
+//////
+
+client.on("message", SAEWAN => {
+
+  if (SAEWAN.content.startsWith("Reklam")) {
+
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+
+    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+
+  }
+
+});
+///////
+
+
+////////
+
+
+
+client.on("message", SAEWAN => {
+
+  if (SAEWAN.content.startsWith("")) {
+
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+
+    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+
+  }
+
+});
+
+///////
 
 ////////
 
