@@ -182,7 +182,6 @@ client.on("message", message => {
   }
 
 });
-// ======== { • TOKENN • }======== //
-
+// ======== { • TOKENN • }======== /
 client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9dwiA.0W6xxrqkolbasy6eCLqKbfppgCs");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
