@@ -102,7 +102,7 @@ client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("سلاو ریکلام دگۆرن وە")) {
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
 
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
 
