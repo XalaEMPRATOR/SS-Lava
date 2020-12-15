@@ -146,8 +146,7 @@ client.on("message", saewan => {
 
       client.channels.get("785815755493081100").send(////ئایدی ژوری تێکست
  
-        `> Nerdra la layan <@${saewan.author.id}> 
-${saewan.content}`
+        `${saewan.content}`
       );
     }
   }
