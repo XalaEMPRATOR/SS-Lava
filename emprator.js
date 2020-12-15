@@ -52,11 +52,11 @@ client.on("message", SAEWAN => {
 
 
 
-  if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
+  if (SAEWAN.content.startsWith("ریکلام دکەن")) {
 
 
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("** چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
 
 
 
@@ -71,11 +71,33 @@ client.on("message", SAEWAN => {
 });
 
 ///////
-
-////////
-
+//////
 
 
+
+client.on("message", SAEWAN => {
+
+
+
+  if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
+
+
+
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
+
+
+
+    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+
+
+
+  }
+
+
+
+});
+
+///////
 client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("سلاو ریکلام دگۆرن وە")) {
