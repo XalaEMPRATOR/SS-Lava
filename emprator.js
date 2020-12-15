@@ -26,7 +26,7 @@ const data = new Map();
 //////
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("reklam")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
@@ -36,7 +36,7 @@ client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("Reklam")) {
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
 
     SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
 
@@ -119,7 +119,7 @@ client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("slaw reklam agornawa")) {
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
 
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
 
@@ -133,7 +133,7 @@ client.on("message", SAEWAN => {
 
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("ریکلام")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
     SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
   }
 });
@@ -141,8 +141,8 @@ client.on("message", SAEWAN => {
 client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
     if (saewan.content.startsWith("https://discord.gg/")) {
-      saewan.author.send(`> **تـۆش ریکلام بۆ ئـەم سێرڤـەرە بکە **  
-https://discord.gg/vbMTCjZhZU`); /// لینکە سیرڤەرە خۆت
+      saewan.author.send(`کردم تۆش ئەمە دانی
+      https://discord.gg/vbMTCjZhZU`); /// لینکە سیرڤەرە خۆت
 
       client.channels.get("785815755493081100").send(////ئایدی ژوری تێکست
  
