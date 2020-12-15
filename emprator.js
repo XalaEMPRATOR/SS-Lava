@@ -44,7 +44,33 @@ client.on("message", SAEWAN => {
 
 });
 ///////
+//////
 
+
+
+client.on("message", SAEWAN => {
+
+
+
+  if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
+
+
+
+    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە**");
+
+
+
+    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+
+
+
+  }
+
+
+
+});
+
+///////
 
 ////////
 
@@ -104,7 +130,37 @@ ${saewan.content}`
     }
   }
 });
+/////
 
+client.on("message", message => {
+
+  if (!message.guild) return;
+
+  if (message.content === ".") {
+
+    if (message.member.voiceChannel) {
+
+      message.member.voiceChannel
+
+        .join()
+
+        .then(connection => {
+
+          message.reply("");
+
+        })
+
+        .catch(console.log);
+
+    } else {
+
+      message.reply("");
+
+    }
+
+  }
+
+});
 // ======== { • TOKENN • }======== //
 
 client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9dwiA.0W6xxrqkolbasy6eCLqKbfppgCs");
