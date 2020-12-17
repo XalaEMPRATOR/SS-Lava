@@ -141,8 +141,25 @@ client.on("message", SAEWAN => {
 client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
     if (saewan.content.startsWith("https://discord.gg/")) {
-      saewan.author.send(`کردم تۆش ئەمە دانی
-      https://discord.gg/vbMTCjZhZU`); /// لینکە سیرڤەرە خۆت
+      saewan.author.send(`بۆ بوون بە پلەیەر پەیڕەوی ئەم خاڵانەی خوارە بە
+
+¹| ڕێز گرتنی هەموو پلەیەرەکان و هەموو تیمەکان٠
+
+½| هەبوونی کارتی ئایدی ٠
+
+⅓|ئەکتیڤ بونی لە دیسکۆردا ٠
+
+¼| تەمەنی سەرو 14 ساڵ بێت ٠
+
+⅕| بەبێ مەرجی کەیدی ٠
+
+⅙| نەکردنەوەی مایکی گشتی و جنیو نەدان لە ناو ڵایڤا 
+
+⅐| بەکار نەهێنانی هاک .
+
+https://discord.gg/vbMTCjZhZU
+
+`); /// لینکە سیرڤەرە خۆت
 
       client.channels.get("785815755493081100").send(////ئایدی ژوری تێکست
  
@@ -183,5 +200,5 @@ client.on("message", message => {
 
 });
 // ======== { • TOKENN • }======== /
-client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9dwiA.0W6xxrqkolbasy6eCLqKbfppgCs");
+client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9se5Q.O4rKzpcExi3xOxVANER3gUiig7Q");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
