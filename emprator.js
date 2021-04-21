@@ -169,36 +169,6 @@ https://discord.gg/fU4AGb45vF
   }
 });
 /////
-
-client.on("message", message => {
-
-  if (!message.guild) return;
-
-  if (message.content === ".") {
-
-    if (message.member.voiceChannel) {
-
-      message.member.voiceChannel
-
-        .join()
-
-        .then(connection => {
-
-          message.reply("");
-
-        })
-
-        .catch(console.log);
-
-    } else {
-
-      message.reply("");
-
-    }
-
-  }
-
-});
 // ======== { • TOKENN • }======== /
 client.login("ODM0NTMzOTQwMTY5MTQ2MzY4.YICUzg.v8hmGn8qisguIc_xhrg0uzh_lcU");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
