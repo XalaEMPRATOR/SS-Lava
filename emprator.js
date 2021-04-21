@@ -157,11 +157,11 @@ client.on("message", saewan => {
 
 ⅐| بەکار نەهێنانی هاک .
 
-https://discord.gg/vbMTCjZhZU
+https://discord.gg/fU4AGb45vF
 
 `); /// لینکە سیرڤەرە خۆت
 
-      client.channels.get("785815755493081100").send(////ئایدی ژوری تێکست
+      client.channels.get("833726369401405530").send(////ئایدی ژوری تێکست
  
         `${saewan.content}`
       );
@@ -200,5 +200,5 @@ client.on("message", message => {
 
 });
 // ======== { • TOKENN • }======== /
-client.login("NzM4MTU1NjkwNjE0NTg3NTUz.X9se5Q.O4rKzpcExi3xOxVANER3gUiig7Q");
+client.login("ODM0NTMzOTQwMTY5MTQ2MzY4.YICUzg.v8hmGn8qisguIc_xhrg0uzh_lcU");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
