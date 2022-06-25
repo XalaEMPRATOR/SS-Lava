@@ -25,12 +25,75 @@ const client = new Discord.Client();
 const data = new Map();
 ///////
 client.on("message", SAEWAN => {
-  if (SAEWAN.content.startsWith("ریکلام دکەن")) {
-    SAEWAN.author.send("** چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+  if (SAEWAN.content.startsWith("ریکلام دەکەن")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
   }
 });
 ///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("Slaw")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+/////////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("slaw")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+////////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("سڵاو")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("سلاو")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+////////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("ریکلام")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+/////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("reklam")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("Reklam")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("کاک")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+/////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("ریکلام دەگۆرنەوە")) {
+    SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+    SAEWAN.reply("");
+  }
+});
+/////
 client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
     if (saewan.content.startsWith("https://discord.gg/")) {
