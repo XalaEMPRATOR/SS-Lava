@@ -28,6 +28,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("reklam")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 //////
@@ -36,6 +37,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("Reklam")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ///////
@@ -47,6 +49,7 @@ client.on("message", SAEWAN => {
 if (SAEWAN.content.startsWith("ریکلام دکەن")) {
 SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 
@@ -59,6 +62,7 @@ client.on("message", SAEWAN => {
  if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
  SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
    }
 });
 
@@ -69,6 +73,7 @@ client.on("message", SAEWAN => {
 
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
 
   }
 
@@ -85,7 +90,7 @@ client.on("message", SAEWAN => {
 
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
-
+SAEWAN.reply("");
   }
 
 });
@@ -95,6 +100,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("slaw")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ///////
@@ -102,6 +108,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("Slaw")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ///////
@@ -109,6 +116,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("سلاو")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 //////
@@ -116,6 +124,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("سڵاو")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ///////
@@ -123,6 +132,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("سلاوە")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 //////
@@ -130,6 +140,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("کاک")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 //////
@@ -137,6 +148,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("باش")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ////////
@@ -144,6 +156,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("bash")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 //////
@@ -153,6 +166,7 @@ client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("ریکلام")) {
     SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
 https://discord.gg/MHYbd7wxYr**");
+SAEWAN.reply("");
   }
 });
 ///////
