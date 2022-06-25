@@ -147,7 +147,6 @@ https://discord.gg/MHYbd7wxYr**");
   }
 });
 //////
-Bash
 //////
 
 client.on("message", SAEWAN => {
