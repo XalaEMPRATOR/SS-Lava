@@ -27,6 +27,7 @@ const data = new Map();
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("ریکلام دەکەن")) {
     SAEWAN.author.send("https://discord.gg/jKjF3J2sJd");
+SAEWAN.reply("");
   }
 });
 ///////
