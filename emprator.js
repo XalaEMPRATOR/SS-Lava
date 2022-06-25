@@ -23,25 +23,20 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const data = new Map();
-//////
+/////
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("reklam")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
   }
 });
 //////
 
 client.on("message", SAEWAN => {
-
   if (SAEWAN.content.startsWith("Reklam")) {
-
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
-
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
   }
-
 });
 ///////
 //////
@@ -49,25 +44,10 @@ client.on("message", SAEWAN => {
 
 
 client.on("message", SAEWAN => {
-
-
-
-  if (SAEWAN.content.startsWith("ریکلام دکەن")) {
-
-
-
-    SAEWAN.author.send("** چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-
-
-
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
-
-
-
+if (SAEWAN.content.startsWith("ریکلام دکەن")) {
+SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
   }
-
-
-
 });
 
 ///////
@@ -76,25 +56,10 @@ client.on("message", SAEWAN => {
 
 
 client.on("message", SAEWAN => {
-
-
-
-  if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
-
-
-
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-
-
-
-    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
-
-
-
-  }
-
-
-
+ if (SAEWAN.content.startsWith("ريكلام دەگۆرنەوە")) {
+ SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+   }
 });
 
 ///////
@@ -102,9 +67,8 @@ client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("سلاو ریکلام دگۆرن وە")) {
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
 
   }
 
@@ -119,22 +83,77 @@ client.on("message", SAEWAN => {
 
   if (SAEWAN.content.startsWith("slaw reklam agornawa")) {
 
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
 
   }
 
 });
 
 ///////
-
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("slaw")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("Slaw")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("سلاو")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+//////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("سڵاو")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("سلاوە")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+//////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("کاک")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+//////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("باش")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
 ////////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("bash")) {
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
+  }
+});
+//////
+Bash
+//////
 
 client.on("message", SAEWAN => {
   if (SAEWAN.content.startsWith("ریکلام")) {
-    SAEWAN.author.send("**چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
-    SAEWAN.reply("**ریـکلاماکەم لە تایـبـەت بـۆ بنێرە**");
+    SAEWAN.author.send("**@everyone  ئەم سیرڤەر بۆ  دەست کەوتن کۆد پۆجێکت  گیت هوب بۆ هۆست کردن بۆت بۆ ڤیرڤایت کردنی بۆت بۆ هەموو شتیک یارمەتی تان دەدەین بی بەرانبەرە
+https://discord.gg/MHYbd7wxYr**");
   }
 });
 ///////
