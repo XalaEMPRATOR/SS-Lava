@@ -23,7 +23,13 @@ setInterval(() => {
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const data = new Map();
-
+///////
+client.on("message", SAEWAN => {
+  if (SAEWAN.content.startsWith("ریکلام دکەن")) {
+    SAEWAN.author.send("** چاوەکەم ریـکـلامـەکـەم بـۆ بنێرە تکای بەس لینکە**");
+    SAEWAN.reply("**ریـکلامەکەم لە تایـبـەت بـۆ بنێرە**");
+  }
+});
 ///////
 client.on("message", saewan => {
   if (saewan.channel.type === "dm") {
