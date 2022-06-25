@@ -170,5 +170,5 @@ https://discord.gg/fU4AGb45vF
 });
 /////
 // ======== { • TOKENN • }======== /
-client.login("ODM0NTMzOTQwMTY5MTQ2MzY4.YICUzg.v8hmGn8qisguIc_xhrg0uzh_lcU");
+client.login("OTg4MTg4MDI0NDY0NjA1MjA0.Gp3l7I.EMQCy-uP-fcF7JyKE2E6kOTzx2KKzIqvUXFU_w");
 ////////////////تکایە دەسکاری ئێرەمەکە تا ریمێکس دەیکت
